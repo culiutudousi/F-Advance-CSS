@@ -27,3 +27,31 @@ header ul {
   color: aliceblue;
   height: 50px;
 }
+
+.article-container {
+  width: 60%;
+  margin: 20px auto;
+  columns: 2;
+  column-gap: 30px;
+}
+
+.article-container .article {
+  width: 100%;
+  break-inside: avoid;
+  margin-bottom: 30px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: rgb(155, 155, 155);
+}
+
+.article-container .article img {
+  width: 100%;
+  border-style: solid;
+  border-width: 0;
+  border-radius: 5px 5px 0 0;
+}
+
+.article-container .article .content {
+  margin: 5px 10px 10px 10px;
+}
