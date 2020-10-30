@@ -18,3 +18,12 @@ ul {
   margin: 0;
   padding: 0;
 }
+
+header ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: black;
+  color: aliceblue;
+  height: 50px;
+}
