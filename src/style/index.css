@@ -129,3 +129,16 @@ header ul {
   border-width: 0;
   border-radius: 7px;
 }
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0 20px 0;
+}
+
+.footer p {
+  color: gray;
+  margin: 5px 0 5px 0;
+}
